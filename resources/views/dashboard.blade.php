@@ -33,7 +33,7 @@
     </div>
 
     <div class="card">
-        <div class="card-header">DATAaaaaaaa</div>
+        <div class="card-header">DATA</div>
         <div class="card-body">
             <div class="list-group">
                 <a href="{{ route('') }}" class="list-group-item list-group-item-action">Tambah Transaksi</a>
