@@ -60,7 +60,7 @@ class TransaksiDetailController extends Controller
         $transaksidetail = TransaksiDetail::findOrFail($id);
 
         $transaksi = Transaksi::with('transaksidetail')->findOrFail($transaksidetail->id_transaksi);
-        $transaksi->total_harga = sum subtotal;
+        $transaksi->total_harga = sum(subtotal);
         $transaksi->kembalian = bayar - total_harga;
         $transaksi->save();
 

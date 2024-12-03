@@ -16,7 +16,7 @@ return [
     */
 
     'driver' => [
-        'password' => "argon2id"
+        'password' => 'argon2id',
     ],
 
     /*
